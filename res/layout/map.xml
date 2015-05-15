@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000" >
+   <fragment
+  android:id="@+id/map"
+  android:layout_width="match_parent"
+  android:layout_margin="6dp"
+  android:layout_height="match_parent"
+  class="com.google.android.gms.maps.SupportMapFragment">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_border"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_horizontal"
+        >
+        <ImageButton
+            android:src="@drawable/map_search"
+            android:id="@+id/btn_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_selector"
+          />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:id="@+id/etLocation"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:hint="Search"
+            android:textSize="13.68dp"
+            android:background="@null"
+            android:gravity="center_vertical"/>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right">
+            <ImageButton
+            android:src="@drawable/gps_icon"
+            android:id="@+id/btn_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_selector" 
+            android:layout_gravity="end"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+</fragment>
+</LinearLayout>

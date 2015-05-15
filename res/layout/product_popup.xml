@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff" >
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:id="@+id/popProductTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matifiante anti imperfections"
+                android:textSize="15dp"
+                android:textColor="#8a8989"/>
+            <TextView 
+                android:id="@+id/popProductSubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dermaclay consmétique active BIO"
+                android:textSize="11dp"
+                android:textColor="#8a8989"/>
+            <TextView 
+                android:id="@+id/compositionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Composition:"
+                android:textSize="14dp"
+                android:textColor="#0e7993"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView 
+                android:id="@+id/composition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dolor lorem adipiscing, platea augue? Cum placerat cras, nunc, eu etiam augue aliquam tortor? Lectus lorem adipiscing. Nec odio velit, hac odio adipiscing et aenean massa, placerat pulvinar. Placerat tincidunt scelerisque elementum. Cum platea, augue proin, lectus risus placerat, et elit porta porta quis velit, non porttitor dapibus? In ut sit elit? In vel dictumst et sociis auctor mus in scelerisque augue duis in duis lundium lacus nec in, cursus, enim enim. Ultricies nunc, vel est et eu mattis dapibus."
+               
+                android:textSize="12dp"
+                android:textColor="#9ba0a1"/>
+            <TextView 
+                android:id="@+id/useCaseTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cas d'utilisation:"
+                android:textSize="14dp"
+                android:textColor="#0e7993"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView 
+                android:id="@+id/useCase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dolor lorem adipiscing, platea augue? Cum placerat cras, nunc, eu etiam augue aliquam tortor? Lectus lorem adipiscing. Nec odio velit, hac odio adipiscing et aenean massa, placerat pulvinar. Placerat tincidunt scelerisque elementum. Cum platea, augue proin, lectus risus placerat, et elit porta porta quis velit, non porttitor dapibus? In ut sit elit? In vel dictumst et sociis auctor mus in scelerisque augue duis in duis lundium lacus nec in, cursus, enim enim. Ultricies nunc, vel est et eu mattis dapibus."
+               
+                android:textSize="12dp"
+                android:textColor="#9ba0a1"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="right|bottom"
+        >
+        <ImageButton 
+            android:id="@+id/btnFermer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"/>
+    </LinearLayout>
+
+</LinearLayout>
